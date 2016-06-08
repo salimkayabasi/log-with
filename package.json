@@ -1,10 +1,14 @@
 {
   "name": "kapgel-logger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Just a basic configuration for `winston`",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "major": "npm version major -m 'New major version %s'",
+    "minor": "npm version minor -m 'New minor version %s'",
+    "patch": "npm version patch -m 'New patch version %s'",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/mocha --recursive",
+    "main": "index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +20,15 @@
     "url": "https://github.com/kapgel/kapgel-logger/issues"
   },
   "homepage": "https://github.com/kapgel/kapgel-logger#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^2.11.1",
+    "eslint-config-kapgel": "^1.1.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-json": "^1.2.0",
+    "mocha": "^2.5.3"
+  },
   "dependencies": {
     "winston": "^2.2.0"
   }

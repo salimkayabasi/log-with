@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6.2.1"
+  - "6"
+  - "5"
+  - "4"
+before_script:
+  - ./node_modules/.bin/mocha --version
+  - ./node_modules/.bin/eslint --version
+script:
+  - ./node_modules/.bin/eslint . && ./node_modules/.bin/mocha --recursive
