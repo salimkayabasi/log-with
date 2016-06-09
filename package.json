@@ -1,6 +1,6 @@
 {
   "name": "kapgel-logger",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Just a basic configuration for `winston`",
   "scripts": {
     "major": "npm version major -m 'New major version %s'",
