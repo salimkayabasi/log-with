@@ -1,9 +1,9 @@
-[![npm version](https://badge.fury.io/js/kapgel-logger.svg)](http://badge.fury.io/js/kapgel-logger)
-[![Dependency Status](https://david-dm.org/kapgel/kapgel-logger.svg)](https://david-dm.org/kapgel/kapgel-logger)
-[![DevDependency Status](https://david-dm.org/kapgel/kapgel-logger/dev-status.svg)](https://david-dm.org/kapgel/kapgel-logger#info=devDependencies)
-[![PeerDependency Status](https://david-dm.org/kapgel/kapgel-logger/peer-status.svg)](https://david-dm.org/kapgel/kapgel-logger#info=peerDependencies)
-[![Build Status](https://travis-ci.org/kapgel/kapgel-logger.svg?branch=master)](https://travis-ci.org/kapgel/kapgel-logger)
+[![npm version](https://badge.fury.io/js/@salim/logger.svg)](http://badge.fury.io/js/@salim/logger)
+[![Dependency Status](https://david-dm.org/salimkayabasi/@salim/logger.svg)](https://david-dm.org/salimkayabasi/@salim/logger)
+[![DevDependency Status](https://david-dm.org/salimkayabasi/@salim/logger/dev-status.svg)](https://david-dm.org/salimkayabasi/@salim/logger#info=devDependencies)
+[![PeerDependency Status](https://david-dm.org/salimkayabasi/@salim/logger/peer-status.svg)](https://david-dm.org/salimkayabasi/@salim/logger#info=peerDependencies)
+[![Build Status](https://travis-ci.org/salimkayabasi/@salim/logger.svg?branch=master)](https://travis-ci.org/salimkayabasi/@salim/logger)
 
-# KapGel Logger
+# Logger
 
 Just a basic configuration for `winston`

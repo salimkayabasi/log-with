@@ -1,5 +1,5 @@
 {
-  "name": "kapgel-logger",
+  "name": "@salim/logger",
   "version": "1.1.1",
   "description": "Just a basic configuration for `winston`",
   "scripts": {
@@ -7,27 +7,28 @@
     "minor": "npm version minor -m 'New minor version %s'",
     "patch": "npm version patch -m 'New patch version %s'",
     "lint": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/mocha --recursive",
+    "mocha-test": "./node_modules/.bin/mocha --recursive",
+    "test": "npm run lint && npm run mocha-test",
     "main": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kapgel/kapgel-logger.git"
+    "url": "git+https://github.com/salimkayabasi/node-logger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kapgel/kapgel-logger/issues"
+    "url": "https://github.com/salimkayabasi/node-logger/issues"
   },
-  "homepage": "https://github.com/kapgel/kapgel-logger#readme",
+  "homepage": "https://github.com/salimkayabasi/node-logger#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
-    "eslint": "^2.11.1",
+    "eslint": "^3.11.1",
     "eslint-config-kapgel": "^1.1.1",
-    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-json": "^1.2.0",
-    "mocha": "^2.5.3"
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "winston": "^2.2.0"
