@@ -1,6 +1,6 @@
 {
   "name": "log-with",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Just a basic configuration for `winston`",
   "scripts": {
     "major": "npm version major -m \"New major version %s\"",
