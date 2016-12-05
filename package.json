@@ -1,5 +1,5 @@
 {
-  "name": "@salim/logger",
+  "name": "log-with",
   "version": "1.2.0",
   "description": "Just a basic configuration for `winston`",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salimkayabasi/node-logger.git"
+    "url": "git+https://github.com/salimkayabasi/log-with.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/salimkayabasi/node-logger/issues"
+    "url": "https://github.com/salimkayabasi/log-with/issues"
   },
-  "homepage": "https://github.com/salimkayabasi/node-logger#readme",
+  "homepage": "https://github.com/salimkayabasi/log-with#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
